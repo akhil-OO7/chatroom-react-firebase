@@ -10,13 +10,7 @@ import { useCollectionData } from "react-firebase-hooks/firestore";
 import { useRef } from "react";
 
 firebase.initializeApp({
-  apiKey: "AIzaSyBOI-nGxWsIgw58rH1QJxzSVJ4CSRJbf5w",
-  authDomain: "chatroom-77aba.firebaseapp.com",
-  projectId: "chatroom-77aba",
-  storageBucket: "chatroom-77aba.appspot.com",
-  messagingSenderId: "160190861235",
-  appId: "1:160190861235:web:9dead61432ad1057ee45c6",
-  measurementId: "G-DFY4L612XM",
+  //your auth key
 });
 
 const auth = firebase.auth();
